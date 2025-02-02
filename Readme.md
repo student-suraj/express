@@ -27,7 +27,7 @@
 ```js
 import express from 'express'
 
-const app = express()
+const app = suraj()
 
 app.get('/', (req, res) => {
   res.send('Hello World')
